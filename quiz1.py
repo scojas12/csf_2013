@@ -1,8 +1,7 @@
 #graded by Travis Wagner
 #wagtra12
 
+from lab2 import n
 
-from lab2
-  import n
-  
-  print "Hello World"
+for i in range(n):
+  print n, "Hello World"
