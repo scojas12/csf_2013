@@ -59,26 +59,53 @@ t_count= 0
 g_count= 0
 c_count= 0
 
+#MINE - a faster way perhaps
+
 # for each base pair in the string,
 for bp in seq:
     # increment the total number of bps we've seen
     total_count = total_count + 1
-
+    
     # next, if the bp is a G or a C,
     if bp == 'C' or bp == 'G':
         # increment the count of gc
         gc_count = gc_count + 1
-    if bp == 'A' or bp == 'T':
+        #counts the G and C nucleotides
+        if bp == "C":
+            c_count = c_count + 1
+        else:
+            g_count = g_count +1
+            
+#YOURS - original long code       
+#for bp in seq:    
+    # next, if the bp is a A or a T,
+#     if bp == 'A' or bp == 'T':
+       # increment the count of AT
+#        at_count = at_count + 1
+#        if bp == "A":
+#            a_count = a_count + 1
+#        else: t_count = t_count + 1
+
+# for each base pair in the string,
+#for bp in seq:
+    # increment the total number of bps we've seen
+#    total_count = total_count + 1
+
+    # next, if the bp is a G or a C,
+#    if bp == 'C' or bp == 'G':
+        # increment the count of gc
+#        gc_count = gc_count + 1
+#    if bp == 'A' or bp == 'T':
         # increment the count of at
-        at_count = at_count + 1
-    if bp == 'A':
-        a_count = a_count + 1
-    if bp == 'T':
-        t_count = t_count + 1
-    if bp == 'G':
-        g_count = g_count + 1
-    if bp== 'C':
-        c_count= c_count + 1 
+#        at_count = at_count + 1
+#    if bp == 'A':
+#        a_count = a_count + 1
+#    if bp == 'T':
+#        t_count = t_count + 1
+#    if bp == 'G':
+#        g_count = g_count + 1
+#    if bp== 'C':
+#        c_count= c_count + 1 
 
 # divide the gc_count by the total_count
 gcat= gc_count + at_count
