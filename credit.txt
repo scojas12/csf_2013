@@ -1,0 +1,10 @@
+Do the following to get credit for the class:
+
+* Complete, run, and commit social_network.py from hw8 to generate romeo-and-juliet.pdf (also commit this to github repo)
+* Fix indentation problems in homework7.py so that the first problem runs (state_edges) and passes its test.
+* Write and submit self-eval and faculty eval for me, Neal, and Sherri online to my.evergreen.edu
+
+Do this by 5pm tomorrow (Friday).
+Show up for tutoring from 10am-3pm tomorrow from Alex and Kahea, in one of the labs (2612 or 2610, check all of them).
+
+Thanks, Paul
