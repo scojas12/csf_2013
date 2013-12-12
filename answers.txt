@@ -1,0 +1,45 @@
+Name: Jason Scott
+Evergreen Login: scojas12
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+GC-content: 0.43029262963
+
+
+
+Problem 2:
+
+After commenting out the seq = "" and also the linenum = 0, i received a syntax error saying linenum wasnt defined on line 40. Since we put # the program skipped when we 
+established a value to the variables.
+
+
+Problem 3:
+
+when i commented out the gc_count = 0, the program came back as a name error on line 66. Name error: name 'gc_count' is not defined. Since we put a
+# before the gc count the program never recognized gc count = 0. So it was adding 1 to nothing.
+
+
+Problem 4:
+
+GC-Content: 0.43029262963
+AT-Content: 0.568993851852
+
+Collaboration:
+
+Micah, Carden
+
+Reflection:
+
+This definitely pushed my ability to keep with the task to the end. I am glad this class is built around collaboration, or at times it would be extremely difficult to complete everything. 
