@@ -1,0 +1,51 @@
+Name: Jason Scott
+Evergreen Login: scojas12
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 4
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program
+
+
+Problem 4:
+
+GC-Content: 0.43029262963
+AT-Content: 0.568993851852
+
+Problem 5:
+
+a-content: 7,701,287
+T-content: 7,661,547
+G-content: 5,738,773
+C-content: 5,879,128
+
+Problem 6: The file test test-high-gc-1.fastq had a number that was different. The sum was smaller than the total count 
+and len(seq). I opened up the file and realized that there was a variable N. This is going to make the sums differ 
+because we had not assigned a value to N in the total count. In the test-small.fastq they were all the same because 
+there was no variable n to be counted.
+
+gcat= 26,980,735
+total_count=27,000,000
+total_length=27,000,000
+
+
+Problem 7:
+
+AT/GC ratio= 1.32234161747
+
+Problem 8:
+
+43.0599870611
+moderate
+
+Collaboration:
+
+Micah, Travis, Travis, Brandon
+
+Reflection: Spent hours testing how my attempts to find ratios worked.
